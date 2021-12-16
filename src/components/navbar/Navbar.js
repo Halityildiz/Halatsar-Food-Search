@@ -21,11 +21,19 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink
-          to={{ pathname: "https://github.com/orgs/clarusway/dashboard" }}
+          to={{
+            pathname: "https://github.com/Halityildiz/Halatsar-Food-Search",
+          }}
         >
           Github
         </MenuLink>
-        <MenuLink to="/login">YouTube</MenuLink>
+        <MenuLink
+          to={{
+            pathname: "https://www.youtube.com/c/clarusway",
+          }}
+        >
+          YouTube
+        </MenuLink>
         <MenuLink to="/login">Contact</MenuLink>
       </Menu>
     </Nav>
