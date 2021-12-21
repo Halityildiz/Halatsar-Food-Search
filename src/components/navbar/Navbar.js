@@ -20,21 +20,9 @@ const Navbar = () => {
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink
-          to={{
-            pathname: "https://github.com/Halityildiz/Halatsar-Food-Search",
-          }}
-        >
-          Github
-        </MenuLink>
-        <MenuLink
-          to={{
-            pathname: "https://www.youtube.com/c/clarusway",
-          }}
-        >
-          YouTube
-        </MenuLink>
-        <MenuLink to="/login">Contact</MenuLink>
+        <MenuLink to="/login">Login</MenuLink>
+        <MenuLink to="/youtube">YouTube</MenuLink>
+        <MenuLink to="/github">Github</MenuLink>
       </Menu>
     </Nav>
   );

@@ -1,10 +1,34 @@
 import React from "react";
+import {
+  AboutContainer,
+  InfoContainer,
+  HeaderContainer,
+  StyledImage,
+} from "./AboutStyle";
+import codingSvg from "../../assets/coding.svg";
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <AboutContainer>
+      <StyledImage src={codingSvg} alt="" />
+      <HeaderContainer>
+        <h1>
+          About Software Developer : <span>Halit Yildiz</span>{" "}
+        </h1>
+      </HeaderContainer>
+      <InfoContainer>
+        <h2>Hi, I'am Halit..</h2>
+        <h3>I’m currently learning Full-Stack Development Languages.</h3>
+        <h4>
+          I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,
+          Python, Django, Jira, Github, AWS Services.
+        </h4>
+        <h2>
+          <a href="mailto:helen@clarusway.com">Send e-mail</a> :
+          halatsar35@gmail.com
+        </h2>
+      </InfoContainer>
+    </AboutContainer>
   );
 };
 
